@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .icona {
+            background-color: white;
+            width: 30px;
+            height: 30px;
+        }
+
+        .novità {
+            background-color: rgb(255, 213, 2);
+            height: 28px;
+            width: 56px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div>
+            <div class="icona">
+                <svg width="100%" height="100%" viewBox="0 0 40 40" alt="" class="">
+                    <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                    <path
+                        d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                        fill="#006DB7"></path>
+                    <path
+                        d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                        fill="#006DB7"></path>
+                </svg>
+            </div>
+            <div class="img">
+                <img src="https://www.lego.com/cdn/cs/set/assets/bltf8476f68fa47b137/10330.png?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1"
+                    alt="">
+            </div>
+            <div class="novità">
+                <span data-test="product-flag" class="">Novità</span>
+
+            </div>
+
+
+        </div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div>
+        <div class="relative flex-col items-center z-[1] py-12 flex bg-[#08060b] dark:bg-[#faf9fa]">
+            <div class="m-0 w-full max-w-[1400px] px-4 overflow-visible">
+                <div class="gap-9 flex flex-col">
+                    <div class="gap-2 flex justify-center">
+                        <div class="text-colorWhite dark:text-[#280d5f] leading-6 text-[40px] font-bold text-center">
+                            Featured
+                        </div>
+                        <div
+                            class="text-colorsSecondary dark:text-[#7645d9] leading-6 text-[40px] font-bold text-center">
+                            News
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <div class="flex items-center mr-2">
+                            <div id="moveLeftButton"
+                                class="flex justify-center items-center w-8 h-8 rounded-2xl border-2 border-colorsPrimary divide-solid cursor-pointer">
+                                <svg viewBox="0 0 24 24" color="var(--colors-textSubtle)" width="20px"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="fill-current shrink-0 self-center text-colorsPrimary">
+                                    <path
+                                        d="M14.71 15.88L10.83 12L14.71 8.12001C15.1 7.73001 15.1 7.10001 14.71 6.71001C14.32 6.32001 13.69 6.32001 13.3 6.71001L8.70998 11.3C8.31998 11.69 8.31998 12.32 8.70998 12.71L13.3 17.3C13.69 17.69 14.32 17.69 14.71 17.3C15.09 16.91 15.1 16.27 14.71 15.88Z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                        <!-- Prima card --->
+                        <div id="featuredNews"
+                            class="whitespace-nowrap snap-x-mandatory scroll-smooth rounded-3xl pb-[5px] overflow-hidden overflow-x-hidden">
+                            <div
+                                class="align-top w-[280px] h-[387px] rounded-3xl bg-[#27262c] dark:bg-white shadow-[0_0_2px_0_rgb(56,50,65,1)] inline-block mr-[34px] cursor-pointer snap-start">
+                                <div
+                                    class="h-[200px] rounded-t-3xl rounded-tr-3xl flex justify-center items-center overflow-hidden">
+                                    <img src="./components/img/1.avif"
+                                        class="shrink-0 min-w-full min-h-full h-auto max-w-full">
+                                </div>
+                                <div class="h-[187px] rounded-b-3xl rounded-bl-3xl overflow-hidden border-t-0 p-5">
+                                    <div class="flex justify-between">
+                                        <div
+                                            class="text-textViolet dark:text-[#7a6eaa] font-semibold text-xs leading-[120%]">
+                                            From
+                                            [
+                                            CoinDesk
+                                            ]
+                                        </div>
+                                        <div
+                                            class="text-textViolet dark:text-[#7a6eaa] font-semibold text-xs leading-[120%]">
+                                            Feb 23, 2024
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="whitespace-pre-wrap text-colorWhite dark:text-[#280d5f] font-semibold mt-4 leading-[120%] text-base min-h-[66px]">
+                                        PancakeSwap Plans ‘Affiliates’ for Expansion; Cake Holders to Benefit</div>
+                                    <div
+                                        class="overflow-hidden whitespace-pre-wrap text-[9px] not-italic font-normal leading-[120%] mt-[16px] max-h-14 line-clamp-4 text-colorWhite dark:text-black">
+                                        CAKE token holders will benefit from the success of affiliate forks as they will
+                                        receive native DEX
+                                        tokens from affiliates, if things go as planned.</div>
+                                </div>
+                            </div>
+
+                            <!-- Seconda card --->
+                            <div
+                                class="align-top w-[280px] h-[387px] rounded-3xl bg-[#27262c] dark:bg-white shadow-[0_0_2px_0_rgb(56,50,65,1)] inline-block mr-[34px] cursor-pointer snap-start">
+                                <div
+                                    class="h-[200px] rounded-t-3xl rounded-tr-3xl flex justify-center items-center overflow-hidden">
+                                    <img src="./components/img/2.webp"
+                                        class="shrink-0 min-w-full min-h-full h-auto max-w-full">
+                                </div>
+                                <div class="h-[187px] rounded-b-3xl rounded-bl-3xl overflow-hidden border-t-0 p-5">
+                                    <div class="flex justify-between">
+                                        <div
+                                            class="text-textViolet dark:text-[#7a6eaa] font-semibold text-xs leading-[120%]">
+                                            From
+                                            [
+                                            Yahoo Finance
+                                            ]
+                                        </div>
+                                        <div
+                                            class="text-textViolet dark:text-[#7a6eaa] font-semibold text-xs leading-[120%]">
+                                            Feb 21, 2024
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="whitespace-pre-wrap text-colorWhite dark:text-[#280d5f] font-semibold mt-4 leading-[120%] text-base min-h-[66px]">
+                                        Nemesis Downfall Announces Highly Anticipated Beta Launch on PancakeSwap Gaming
+                                        Marketplace</div>
+                                    <div
+                                        class="overflow-hidden whitespace-pre-wrap text-[9px] not-italic font-normal leading-[120%] mt-[16px] max-h-14 line-clamp-4 text-colorWhite dark:text-black">
+                                        Nemesis Downfall will release its highly anticipated beta version exclusively on
+                                        PancakeSwap's
+                                        gaming marketplace platform</div>
+                                </div>
+                            </div>
+
+                            <!-- Terza card --->
+                            <div
+                                class="align-top w-[280px] h-[387px] rounded-3xl bg-[#27262c] dark:bg-white shadow-[0_0_2px_0_rgb(56,50,65,1)] inline-block mr-[34px] cursor-pointer snap-start">
+                                <div
+                                    class="h-[200px] rounded-t-3xl rounded-tr-3xl flex justify-center items-center overflow-hidden">
+                                    <img src="./components/img/3.avif"
+                                        class="shrink-0 min-w-full min-h-full h-auto max-w-full">
+                                </div>
+                                <div class="h-[187px] rounded-b-3xl rounded-bl-3xl overflow-hidden border-t-0 p-5">
+                                    <div class="flex justify-between">
+                                        <div
+                                            class="text-textViolet dark:text-[#7a6eaa] font-semibold text-xs leading-[120%]">
+                                            From
+                                            [
+                                            Cointelegraph
+                                            ]
+                                        </div>
+                                        <div
+                                            class="text-textViolet dark:text-[#7a6eaa] font-semibold text-xs leading-[120%]">
+                                            Dec 28, 2023
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="whitespace-pre-wrap text-colorWhite dark:text-[#280d5f] font-semibold mt-4 leading-[120%] text-base min-h-[66px]">
+                                        PancakeSwap seeks 300M CAKE token supply revamp</div>
+                                    <div
+                                        class="overflow-hidden whitespace-pre-wrap text-[9px] not-italic font-normal leading-[120%] mt-[16px] max-h-14 line-clamp-4 text-colorWhite dark:text-black">
+                                        Decentralized exchange (DEX) PancakeSwap is looking to slash the maximum supply
+                                        of its ecosystem
+                                        token, CAKE, from 750 million to 450 million.</div>
+                                </div>
+                            </div>
+
+                            <!-- Quarta card --->
+                            <div
+                                class="align-top w-[280px] h-[387px] rounded-3xl bg-[#27262c] dark:bg-white shadow-[0_0_2px_0_rgb(56,50,65,1)] inline-block mr-[34px] cursor-pointer snap-start">
+                                <div
+                                    class="h-[200px] rounded-t-3xl rounded-tr-3xl flex justify-center items-center overflow-hidden">
+                                    <img src="./components/img/4.avif"
+                                        class="shrink-0 min-w-full min-h-full h-auto max-w-full">
+                                </div>
+                                <div class="h-[187px] rounded-b-3xl rounded-bl-3xl overflow-hidden border-t-0 p-5">
+                                    <div class="flex justify-between">
+                                        <div
+                                            class="text-textViolet dark:text-[#7a6eaa] font-semibold text-xs leading-[120%]">
+                                            From
+                                            [
+                                            CoinDesk
+                                            ]
+                                        </div>
+                                        <div
+                                            class="text-textViolet dark:text-[#7a6eaa] font-semibold text-xs leading-[120%]">
+                                            Dec 28, 2023
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="whitespace-pre-wrap text-colorWhite dark:text-[#280d5f] font-semibold mt-4 leading-[120%] text-base min-h-[66px]">
+                                        PancakeSwap Proposes to Reduce CAKE Token Supply by 300 Million</div>
+                                    <div
+                                        class="overflow-hidden whitespace-pre-wrap text-[9px] not-italic font-normal leading-[120%] mt-[16px] max-h-14 line-clamp-3 text-colorWhite dark:text-black">
+                                        PancakeSwap floated a vote proposal to reduce the maximum supply of CAKE from
+                                        750 million to 450
+                                        million. The voting period began in early hours on Thursday and will last until
+                                        8:00 am UTC on
+                                        Friday.</div>
+                                </div>
+                            </div>
+
+                            <!-- Quinta card --->
+                            <div
+                                class="align-top w-[280px] h-[387px] rounded-3xl bg-[#27262c] dark:bg-white shadow-[0_0_2px_0_rgb(56,50,65,1)] inline-block mr-[34px] cursor-pointer snap-start">
+                                <div
+                                    class="h-[200px] rounded-t-3xl rounded-tr-3xl flex justify-center items-center overflow-hidden">
+                                    <img src="./components/img/5.avif"
+                                        class="shrink-0 min-w-full min-h-full h-auto max-w-full">
+                                </div>
+                                <div class="h-[187px] rounded-b-3xl rounded-bl-3xl overflow-hidden border-t-0 p-5">
+                                    <div class="flex justify-between">
+                                        <div
+                                            class="text-textViolet dark:text-[#7a6eaa] font-semibold text-xs leading-[120%]">
+                                            From
+                                            [
+                                            Cointelegraph
+                                            ]
+                                        </div>
+                                        <div
+                                            class="text-textViolet dark:text-[#7a6eaa] font-semibold text-xs leading-[120%]">
+                                            Nov 23, 2023
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="whitespace-pre-wrap text-colorWhite dark:text-[#280d5f] font-semibold mt-4 leading-[120%] text-base min-h-[66px]">
+                                        PancakeSwap implements new ‘Gauges’ voting systemt</div>
+                                    <div
+                                        class="overflow-hidden whitespace-pre-wrap text-[9px] not-italic font-normal leading-[120%] mt-[16px] max-h-14 line-clamp-3 text-colorWhite dark:text-black">
+                                        The decentralized exchange launched a new feature that allows governance
+                                        tokenholders to vote on
+                                        which pools will receive the most rewards.</div>
+                                </div>
+                            </div>
+
+                            <!-- Sesta card --->
+                            <div
+                                class="align-top w-[280px] h-[387px] rounded-3xl bg-[#27262c] dark:bg-white shadow-[0_0_2px_0_rgb(56,50,65,1)] inline-block mr-[34px] cursor-pointer snap-start">
+                                <div
+                                    class="h-[200px] rounded-t-3xl rounded-tr-3xl flex justify-center items-center overflow-hidden">
+                                    <img src="./components/img/6.jpg"
+                                        class="shrink-0 min-w-full min-h-full h-auto max-w-full">
+                                </div>
+                                <div class="h-[187px] rounded-b-3xl rounded-bl-3xl overflow-hidden border-t-0 p-5">
+                                    <div class="flex justify-between">
+                                        <div
+                                            class="text-textViolet dark:text-[#7a6eaa] font-semibold text-xs leading-[120%]">
+                                            From
+                                            [
+                                            The Block
+                                            ]
+                                        </div>
+                                        <div
+                                            class="text-textViolet dark:text-[#7a6eaa] font-semibold text-xs leading-[120%]">
+                                            Nov 15, 2023
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="whitespace-pre-wrap text-colorWhite dark:text-[#280d5f] font-semibold mt-4 leading-[120%] text-base min-h-[66px]">
+                                        PancakeSwap Launches Gaming Marketplace</div>
+                                    <div
+                                        class="overflow-hidden whitespace-pre-wrap text-[9px] not-italic font-normal leading-[120%] mt-[16px] max-h-14 line-clamp-3 text-colorWhite dark:text-black">
+                                        The decentralized exchange PancakeSwap has launched a gaming marketplace. The
+                                        new platform lets
+                                        developers build, launch and update games with web3 elements, such as
+                                        cryptocurrency and NFTs.</div>
+                                </div>
+                            </div>
+
+                            <!-- Settima card --->
+                            <div
+                                class="align-top w-[280px] h-[387px] rounded-3xl bg-[#27262c] dark:bg-white shadow-[0_0_2px_0_rgb(56,50,65,1)] inline-block mr-[34px] cursor-pointer snap-start">
+                                <div
+                                    class="h-[200px] rounded-t-3xl rounded-tr-3xl flex justify-center items-center overflow-hidden">
+                                    <img src="./components/img/7.avif"
+                                        class="shrink-0 min-w-full min-h-full h-auto max-w-full">
+                                </div>
+                                <div class="h-[187px] rounded-b-3xl rounded-bl-3xl overflow-hidden border-t-0 p-5">
+                                    <div class="flex justify-between">
+                                        <div
+                                            class="text-textViolet dark:text-[#7a6eaa] font-semibold text-xs leading-[120%]">
+                                            From
+                                            [
+                                            Cointelegraph
+                                            ]
+                                        </div>
+                                        <div
+                                            class="text-textViolet dark:text-[#7a6eaa] font-semibold text-xs leading-[120%]">
+                                            Oct 30, 2023
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="whitespace-pre-wrap text-colorWhite dark:text-[#280d5f] font-semibold mt-4 leading-[120%] text-base min-h-[66px]">
+                                        PancakeSwap adds portfolio manager function in partnership with Bril</div>
+                                    <div
+                                        class="overflow-hidden whitespace-pre-wrap text-[9px] not-italic font-normal leading-[120%] mt-[16px] max-h-14 line-clamp-3 text-colorWhite dark:text-black">
+                                        Decentralized crypto exchange PancakeSwap now has portfolio manager
+                                        functionality, according to an
+                                        Oct. 30 announcement. The feature has been added in partnership with
+                                        decentralized finance (DeFi)
+                                        protocol Bril Finance.</div>
+                                </div>
+                            </div>
+
+                            <!-- Ottava card --->
+                            <div
+                                class="align-top w-[280px] h-[387px] rounded-3xl bg-[#27262c] dark:bg-white shadow-[0_0_2px_0_rgb(56,50,65,1)] inline-block mr-[34px] cursor-pointer snap-start">
+                                <div
+                                    class="h-[200px] rounded-t-3xl rounded-tr-3xl flex justify-center items-center overflow-hidden">
+                                    <img src="./components/img/8.webp"
+                                        class="shrink-0 min-w-full min-h-full h-auto max-w-full">
+                                </div>
+                                <div class="h-[187px] rounded-b-3xl rounded-bl-3xl overflow-hidden border-t-0 p-5">
+                                    <div class="flex justify-between">
+                                        <div
+                                            class="text-textViolet dark:text-[#7a6eaa] font-semibold text-xs leading-[120%]">
+                                            From
+                                            [
+                                            Decrypt
+                                            ]
+                                        </div>
+                                        <div
+                                            class="text-textViolet dark:text-[#7a6eaa] font-semibold text-xs leading-[120%]">
+                                            Aug 31, 2023
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="whitespace-pre-wrap text-colorWhite dark:text-[#280d5f] font-semibold mt-4 leading-[120%] text-base min-h-[66px]">
+                                        PancakeSwap Expands to Coinbase-Incubated Base Network</div>
+                                    <div
+                                        class="overflow-hidden whitespace-pre-wrap text-[9px] not-italic font-normal leading-[120%] mt-[16px] max-h-14 line-clamp-3 text-colorWhite dark:text-black">
+                                        PancakeSwap joins DeFi heavyweights like Uniswap, SushiSwap, and 1inch launching
+                                        on the buzzy
+                                        layer-2 network Base.</div>
+                                </div>
+                            </div>
+
+                            <!-- Nona card --->
+                            <div
+                                class="align-top w-[280px] h-[387px] rounded-3xl bg-[#27262c] dark:bg-white shadow-[0_0_2px_0_rgb(56,50,65,1)] inline-block mr-[34px] cursor-pointer snap-start">
+                                <div
+                                    class="h-[200px] rounded-t-3xl rounded-tr-3xl flex justify-center items-center overflow-hidden">
+                                    <img src="./components/img/1.avif"
+                                        class="shrink-0 min-w-full min-h-full h-auto max-w-full">
+                                </div>
+                                <div class="h-[187px] rounded-b-3xl rounded-bl-3xl overflow-hidden border-t-0 p-5">
+                                    <div class="flex justify-between">
+                                        <div
+                                            class="text-textViolet dark:text-[#7a6eaa] font-semibold text-xs leading-[120%]">
+                                            From
+                                            [
+                                            CoinDesk
+                                            ]
+                                        </div>
+                                        <div
+                                            class="text-textViolet dark:text-[#7a6eaa] font-semibold text-xs leading-[120%]">
+                                            Aug 10, 2023
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="whitespace-pre-wrap text-colorWhite dark:text-[#280d5f] font-semibold mt-4 leading-[120%] text-base min-h-[66px]">
+                                        PancakeSwap Deploys on Ethereum Scaling Network Arbitrum in Expansion Drive
+                                    </div>
+                                    <div
+                                        class="overflow-hidden whitespace-pre-wrap text-[9px] not-italic font-normal leading-[120%] mt-[16px] max-h-14 line-clamp-3 text-colorWhite dark:text-black">
+                                        The decentralized exchange has joined several networks this year in the search
+                                        for new users and
+                                        revenue streams.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Freccia laterale destra --->
+                        <div class="flex items-center ml-2">
+                            <div id="moveRightButton"
+                                class="flex justify-center items-center w-8 h-8 rounded-2xl border-2 border-colorsPrimary divide-solid cursor-pointer">
+                                <svg viewBox="0 0 24 24" color="var(--colors-textSubtle)" width="20px"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="fill-current shrink-0 self-center text-colorsPrimary">
+                                    <path
+                                        d="M9.29006 15.88L13.1701 12L9.29006 8.12001C8.90006 7.73001 8.90006 7.10001 9.29006 6.71001C9.68006 6.32001 10.3101 6.32001 10.7001 6.71001L15.2901 11.3C15.6801 11.69 15.6801 12.32 15.2901 12.71L10.7001 17.3C10.3101 17.69 9.68006 17.69 9.29006 17.3C8.91006 16.91 8.90006 16.27 9.29006 15.88Z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

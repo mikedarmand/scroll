@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1229px;
+  height: 568px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 30px;
+
+
+
+}
+
+.frecProd {
+  height: inherit;
+  width: inherit;
+}
+
+h2 {
+  display: flex;
+  font-size: xx-large;
+  padding-bottom: 10px;
+}
+.title{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.imagine {
+  display: flex;
+  border: 1px solid;
+  height: 277px;
+  width: 277px;
+  align-content: space-between;
+  position: relative;
+  margin-right: 20px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.img {
+  max-height: 277px;
+  max-width: 277px;
+
+}
+
+.products {
+  display: flex;
+  gap: 20px;
+}
+
+.group {
+  align-items: center;
+  justify-content: space-between;
+  width: 281px;
+  height: 458px;
+  margin: 10px;
+  padding: 10px;
+
+}
+
+
+.link {
+  display: flex;
+}
+
+.button {
+  display: flex;
+  background-color: orange;
+  height: 59px;
+  width: 279px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: space-around;
+  font-size: medium;
+
+}
+
+.click {
+  position: relative;
+  display: flex;
+  height: 66px;
+  width: 279px;
+}
+
+
+.novità {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 213, 2);
+  height: 28px;
+  width: 56px;
+  position: absolute;
+  margin: 10px;
+  left: 0;
+  bottom: 0;
+
+}
+
+.icona {
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.freccia {
+  background-color: transparent;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+}
+
+.freccinaSx {
+  position: absolute;
+  left: 0;
+  top: 229px;
+}
+
+.freccinaDx {
+  position: absolute;
+  right: 0;
+  top: 229px;
+}
+.containProducts{
+  overflow: hidden;
+  width: 1280px;
+  height: 499px;
+}
+
+.containerScroll {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.stelle {
+  display: flex;
+  width: 15px;
+  height: 15px;
+}
